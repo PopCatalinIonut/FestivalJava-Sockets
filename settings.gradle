@@ -1,0 +1,8 @@
+rootProject.name = 'new FestivalJavaSockets'
+include 'FestivalClient'
+include 'FestivalModel'
+include 'FestivalPersistence'
+include 'FestivalNetworking'
+include 'FestivalServer'
+include 'FestivalServices'
+

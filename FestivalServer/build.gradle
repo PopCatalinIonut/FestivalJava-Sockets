@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':FestivalModel')
+    compile project (':FestivalServices')
+    compile project (':FestivalPersistence')
+    compile project (':FestivalNetworking')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
+}

@@ -1,0 +1,30 @@
+13 Apr 2021 16:58:48,515 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 16:58:48,522 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 16:58:48,524 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 16:58:48,706 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@4f6e9cc4)
+13 Apr 2021 16:58:49,727 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 16:58:49,729 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 16:58:49,734 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 16:58:49,738 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@50d5cadc)
+13 Apr 2021 17:03:22,629 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 17:03:22,635 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 17:03:22,637 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 17:03:22,816 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@4f6e9cc4)
+13 Apr 2021 17:03:23,830 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 17:03:23,831 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 17:03:23,832 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 17:03:23,835 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@50d5cadc)
+13 Apr 2021 17:03:26,554 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 17:03:26,555 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@4f6e9cc4)
+13 Apr 2021 17:03:27,558 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 17:03:27,559 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 17:03:27,560 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 17:03:27,563 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@4c1c316c)
+13 Apr 2021 17:03:58,573 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 17:03:58,580 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 17:03:58,581 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 17:03:58,768 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@4f6e9cc4)
+13 Apr 2021 17:03:59,778 TRACE persistence.repository.jdbc.JdbcUtils 39 getConnection - Enter
+13 Apr 2021 17:03:59,779 TRACE persistence.repository.jdbc.JdbcUtils 24 getNewConnection - Enter
+13 Apr 2021 17:03:59,780 INFO  persistence.repository.jdbc.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/papy_/Desktop/An 2 Sem 2/MPP/FESTIVAL CS/bin/Debug/festivalsDB.db
+13 Apr 2021 17:03:59,783 TRACE persistence.repository.jdbc.JdbcUtils 48 getConnection - Exit with(org.sqlite.SQLiteConnection@50d5cadc)

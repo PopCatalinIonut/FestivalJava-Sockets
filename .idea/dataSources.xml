@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="festivalsDB.db" uuid="eb395d3c-e1cf-45b4-bc4f-610de7ab54e4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../FESTIVAL CS/bin/Debug/festivalsDB.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

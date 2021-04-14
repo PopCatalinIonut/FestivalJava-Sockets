@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceCompatibility = 1.8
+dependencies {
+    compile project (':FestivalModel')
+    runtime group: 'org.xerial', name: 'sqlite-jdbc', version: '3.16.1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
