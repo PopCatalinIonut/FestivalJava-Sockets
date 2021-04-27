@@ -7,6 +7,8 @@ public class Artist implements Entity<Integer>, Serializable {
     private int ID;
     private String name;
 
+    public Artist() {}
+
     public void setName(String name) {
         this.name = name;
     }

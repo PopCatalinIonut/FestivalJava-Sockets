@@ -7,6 +7,13 @@ public class User implements Comparable<User>, Serializable,Entity<String>{
     private String username, passwd;
 
 
+    public User() {
+        this("");
+    }
+
+    public User(String username) {
+        this(username,"");
+    }
     public User(String username, String passwd) {
         this.username = username;
         this.passwd = passwd;

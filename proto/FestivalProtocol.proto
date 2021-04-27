@@ -1,0 +1,66 @@
+syntax="proto3";
+package festival.protocol;
+
+option java_package = "network.protobuffprotocol";
+option java_outer_classname = "FestivalProtobufs";
+
+message User{
+  string id=1;
+  string passwd=2;
+}
+
+message Ticket{
+  int32 ID=1;
+  int32 festivalID=2;
+  string buyerName=3;
+  int32 seats=4;
+}
+
+message  Artist{
+  int32 ID=1;
+  string name=2;
+}
+
+message Show{
+  int32 ID=1;
+  string name=2;
+  string location=3;
+  Date date=4;
+  Artist artist=5;
+  int32 totalSeats=6;
+  int32 soldSeats=7;
+}
+
+message Date{
+  int32 day=1;
+  int32 month=2;
+  int32 year=3;
+  int32 hour=4;
+  int32 minute=5;
+  int32 second=6;
+}
+
+message FestivalRequest {
+  enum Type {UNKNOWN=0;LOGIN=1; LOGOUT=2; GET_ALL_SHOWS=3; GET_SHOWS_BY_DATE=4; BUY_TICKETS=5;}
+
+  Type type = 1;
+
+  oneof payload{
+     User user =2;
+     Show show =3;
+     Date date=4;
+     Artist artist=5;
+     Ticket ticket=6;
+  }
+}
+
+message FestivalResponse{
+  enum Type { UNKNOWN=0; OK=1; ERROR=2; GET_SHOWS=3; TICKET_BOUGHT=4; REFRESH_DATA=5;  }
+
+  Type type = 1;
+
+  string error = 2;
+  repeated Show shows=3;
+  Ticket ticket = 4;
+
+}

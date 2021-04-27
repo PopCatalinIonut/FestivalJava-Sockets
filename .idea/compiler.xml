@@ -2,9 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="new_FestivalJavaSockets" target="15" />
       <module name="new_FestivalJavaSockets.FestivalClientFX" target="15" />
       <module name="new_FestivalJavaSockets.FestivalClientFX.main" target="15" />
       <module name="new_FestivalJavaSockets.FestivalClientFX.test" target="15" />
+      <module name="new_FestivalJavaSockets.main" target="15" />
+      <module name="new_FestivalJavaSockets.test" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

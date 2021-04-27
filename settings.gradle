@@ -1,4 +1,4 @@
-rootProject.name = 'new FestivalJavaSockets'
+rootProject.name = 'Proto FestivalJavaSockets'
 include 'FestivalClient'
 include 'FestivalModel'
 include 'FestivalPersistence'
